@@ -1,4 +1,4 @@
-# QA Dashboard
+# QA Dashboard con Allure report
 
 Dashboard interactivo para gestionar y visualizar casos de prueba manuales con reportes Allure automatizados.
 
