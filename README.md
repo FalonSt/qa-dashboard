@@ -73,11 +73,11 @@ Crea un archivo Excel (`test_cases.xlsx`) en la carpeta `test_data/` con las sig
 | Category | Categoría/Feature | Autenticación |
 | Priority | Prioridad | High, Medium, Low, Critical |
 | Type | Tipo de prueba | Functional, Regression, Smoke |
-| Status | Estado actual | PASSED, FAILED, PENDING, BLOCKED, SKIPPED |
 | Description | Descripción detallada | Verificar que el usuario puede ingresar... |
 | Steps | Pasos de ejecución | 1. Abrir login\n2. Ingresar credenciales... |
 | Expected Result | Resultado esperado | Usuario autenticado correctamente |
 | Test Data | Datos de prueba | user@example.com, password123 |
+| Status | Estado actual | PASSED, FAILED, PENDING, BLOCKED, SKIPPED |
 | Linked Reports/Notes | Notas o links | JIRA-123, Bug encontrado en... |
 
 ### Paso 2: Convertir Excel a Allure
