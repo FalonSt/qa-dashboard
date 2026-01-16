@@ -106,13 +106,31 @@ allure open allure-report
 
 Se abrirá automáticamente en tu navegador.
 
+### Paso 5: Actualizar datos y regenerar (Flujo rápido)
+
+Cuando actualices el Excel, ejecuta:
+
+```bash
+# 1. Convertir Excel a Allure
+python scripts/excel_to_allure_updated.py
+
+# 2. Hacer commit y push (dispara el workflow automáticamente)
+git add .
+git commit -m "Update test cases"
+git push origin main
+```
+
+El workflow `generate-report.yml` se ejecutará automáticamente y publicará el reporte en GitHub Pages en 2-3 minutos.
+
 ## 🤖 Automatización con GitHub Actions
+
+### Workflow: Generar Reporte Allure
 
 El workflow `generate-report.yml` se ejecuta automáticamente cuando:
 - Haces push a cambios en archivos `.xlsx` en `test_data/`
 - Ejecutas manualmente el workflow desde GitHub Actions
 
-### Pasos del workflow:
+**Pasos del workflow:**
 1. ✅ Checkout del código
 2. ✅ Instalación de dependencias Python
 3. ✅ Conversión de Excel a Allure
@@ -120,11 +138,29 @@ El workflow `generate-report.yml` se ejecuta automáticamente cuando:
 5. ✅ Generación del reporte
 6. ✅ Publicación en GitHub Pages
 
-### Ver reporte en línea
-
-Una vez que el workflow termine, accede a:
+**Ver reporte en línea:**
 ```
 https://FalonSt.github.io/qa-dashboard/
+```
+
+### Workflow: Alertas Semanales en Teams
+
+El workflow `send-teams-alert.yml` se ejecuta automáticamente:
+- **Todos los viernes a las 18:00 (UTC-3)**
+- Envía un resumen de métricas por categoría a Teams
+
+**Configuración requerida:**
+1. Ve a GitHub → Settings → Secrets and variables → Actions
+2. Crea un secret llamado `TEAMS_WEBHOOK_URL` con la URL del webhook de Teams
+3. El workflow enviará automáticamente:
+   - Total de casos por categoría (Functional TC, Non functional TC)
+   - Casos pasados, fallidos y pendientes
+   - Tasa de éxito general
+   - Link al reporte completo en Allure
+
+**Prueba manual:**
+```bash
+# Ve a GitHub Actions → "Send Teams Weekly Alert" → "Run workflow"
 ```
 
 ## 📊 Estructura del Proyecto
@@ -132,16 +168,18 @@ https://FalonSt.github.io/qa-dashboard/
 ```
 qa-dashboard/
 ├── test_data/
-│   └── test_cases_Hoopit.xlsx      # Archivo con casos de prueba
+│   └── test_cases_Hoopit.xlsx           # Archivo con casos de prueba
 ├── scripts/
-│   └── excel_to_allure_updated.py  # Script de conversión
-├── allure-results/                 # Resultados generados (JSON)
-├── allure-report/                  # Reporte HTML generado
+│   ├── excel_to_allure_updated.py       # Script de conversión Excel → Allure
+│   └── send_teams_alert.py              # Script de alertas a Teams
+├── allure-results/                      # Resultados generados (JSON)
+├── allure-report/                       # Reporte HTML generado
 ├── .github/
 │   └── workflows/
-│       └── generate-report.yml     # Workflow de GitHub Actions
-├── requirements.txt                # Dependencias Python
-└── README.md                        # Este archivo
+│       ├── generate-report.yml          # Workflow: Generar reporte Allure
+│       └── send-teams-alert.yml         # Workflow: Alertas semanales a Teams
+├── requirements.txt                     # Dependencias Python
+└── README.md                            # Este archivo
 ```
 
 ## 📈 Estadísticas y Métricas
