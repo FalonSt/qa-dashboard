@@ -2,19 +2,19 @@
   "uuid": "4283478b-5f12-5a28-b02e-32c8e35676fc",
   "historyId": "399bf77d7a213e5844187e7093936c50",
   "name": "Error Recovery - S3 Upload Fails",
-  "fullName": "Error Handling.TC-090-s3fail",
+  "fullName": "Functional TC.TC-090-s3fail",
   "status": "unknown",
   "statusDetails": {
     "known": false,
     "muted": false,
     "flaky": false
   },
-  "start": 1768271255233,
-  "stop": 1768271256233,
+  "start": 1768592790208,
+  "stop": 1768592791208,
   "labels": [
     {
       "name": "feature",
-      "value": "Error Handling"
+      "value": "Functional TC"
     },
     {
       "name": "severity",
@@ -34,7 +34,7 @@
     },
     {
       "name": "suite",
-      "value": "Error Handling"
+      "value": "Functional TC"
     }
   ],
   "links": [],
@@ -45,8 +45,8 @@
     {
       "name": "Start upload | 2. Simulate S3 failure | 3. Observe error handling",
       "status": "passed",
-      "start": 1768271255233,
-      "stop": 1768271255333
+      "start": 1768592790208,
+      "stop": 1768592790308
     }
   ]
 }

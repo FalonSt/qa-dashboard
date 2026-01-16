@@ -2,19 +2,19 @@
   "uuid": "4503f09f-ab18-5e3b-ac22-658cfeb2b706",
   "historyId": "6a156a2db0b571219c9d27f620a00ccb",
   "name": "Database - Upload History Table",
-  "fullName": "Integration.TC-061-history",
+  "fullName": "Functional TC.TC-061-history",
   "status": "unknown",
   "statusDetails": {
     "known": false,
     "muted": false,
     "flaky": false
   },
-  "start": 1768271255233,
-  "stop": 1768271256233,
+  "start": 1768592790208,
+  "stop": 1768592791208,
   "labels": [
     {
       "name": "feature",
-      "value": "Integration"
+      "value": "Functional TC"
     },
     {
       "name": "severity",
@@ -34,7 +34,7 @@
     },
     {
       "name": "suite",
-      "value": "Integration"
+      "value": "Functional TC"
     }
   ],
   "links": [],
@@ -45,8 +45,8 @@
     {
       "name": "Complete upload | 2. Query upload_history table | 3. Verify metrics",
       "status": "passed",
-      "start": 1768271255233,
-      "stop": 1768271255333
+      "start": 1768592790208,
+      "stop": 1768592790308
     }
   ]
 }

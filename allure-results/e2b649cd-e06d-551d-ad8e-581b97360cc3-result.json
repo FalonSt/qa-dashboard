@@ -2,19 +2,19 @@
   "uuid": "e2b649cd-e06d-551d-ad8e-581b97360cc3",
   "historyId": "d9b0681c7e39221faae892c9d2299a7b",
   "name": "Mapping Template - Load",
-  "fullName": "Field Mapping.TC-014-load",
+  "fullName": "Functional TC.TC-014-load",
   "status": "failed",
   "statusDetails": {
     "known": false,
     "muted": false,
     "flaky": false
   },
-  "start": 1768271255233,
-  "stop": 1768271256233,
+  "start": 1768592790208,
+  "stop": 1768592791208,
   "labels": [
     {
       "name": "feature",
-      "value": "Field Mapping"
+      "value": "Functional TC"
     },
     {
       "name": "severity",
@@ -34,7 +34,7 @@
     },
     {
       "name": "suite",
-      "value": "Field Mapping"
+      "value": "Functional TC"
     }
   ],
   "links": [],
@@ -45,8 +45,8 @@
     {
       "name": "Upload CSV with same structure | 2. Select saved template | 3. Verify mappings auto-apply | 4. Process upload",
       "status": "passed",
-      "start": 1768271255233,
-      "stop": 1768271255333
+      "start": 1768592790208,
+      "stop": 1768592790308
     }
   ]
 }

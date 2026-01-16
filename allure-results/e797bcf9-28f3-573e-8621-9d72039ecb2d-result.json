@@ -2,19 +2,19 @@
   "uuid": "e797bcf9-28f3-573e-8621-9d72039ecb2d",
   "historyId": "ad7d913ff03d3f25862757b3553b8433",
   "name": "AWS - Dead Letter Queue",
-  "fullName": "Integration.TC-062-dlq",
+  "fullName": "Functional TC.TC-062-dlq",
   "status": "unknown",
   "statusDetails": {
     "known": false,
     "muted": false,
     "flaky": false
   },
-  "start": 1768271255233,
-  "stop": 1768271256233,
+  "start": 1768592790208,
+  "stop": 1768592791208,
   "labels": [
     {
       "name": "feature",
-      "value": "Integration"
+      "value": "Functional TC"
     },
     {
       "name": "severity",
@@ -34,7 +34,7 @@
     },
     {
       "name": "suite",
-      "value": "Integration"
+      "value": "Functional TC"
     }
   ],
   "links": [],
@@ -45,8 +45,8 @@
     {
       "name": "Trigger processing failure | 2. Check dead letter queue | 3. Verify message content",
       "status": "passed",
-      "start": 1768271255233,
-      "stop": 1768271255333
+      "start": 1768592790208,
+      "stop": 1768592790308
     }
   ]
 }

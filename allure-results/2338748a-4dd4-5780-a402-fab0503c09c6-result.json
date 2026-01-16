@@ -2,19 +2,19 @@
   "uuid": "2338748a-4dd4-5780-a402-fab0503c09c6",
   "historyId": "82963cee1ea911769670b99e067e4641",
   "name": "Malformed CSV - Special characters",
-  "fullName": "Upload.TC-004-special",
+  "fullName": "Functional TC.TC-004-special",
   "status": "passed",
   "statusDetails": {
     "known": false,
     "muted": false,
     "flaky": false
   },
-  "start": 1768271255233,
-  "stop": 1768271256233,
+  "start": 1768592790208,
+  "stop": 1768592791208,
   "labels": [
     {
       "name": "feature",
-      "value": "Upload"
+      "value": "Functional TC"
     },
     {
       "name": "severity",
@@ -34,7 +34,7 @@
     },
     {
       "name": "suite",
-      "value": "Upload"
+      "value": "Functional TC"
     }
   ],
   "links": [],
@@ -45,8 +45,8 @@
     {
       "name": "Upload CSV with special characters",
       "status": "passed",
-      "start": 1768271255233,
-      "stop": 1768271255333
+      "start": 1768592790208,
+      "stop": 1768592790308
     }
   ]
 }

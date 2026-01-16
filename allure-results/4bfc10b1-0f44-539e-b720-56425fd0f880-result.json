@@ -2,19 +2,19 @@
   "uuid": "4bfc10b1-0f44-539e-b720-56425fd0f880",
   "historyId": "d603446fb91646ee8a1f683fa112d783",
   "name": "Real-Time Email Validation",
-  "fullName": "Data Validation.TC-020",
+  "fullName": "Functional TC.TC-020",
   "status": "passed",
   "statusDetails": {
     "known": false,
     "muted": false,
     "flaky": false
   },
-  "start": 1768271255233,
-  "stop": 1768271256233,
+  "start": 1768592790208,
+  "stop": 1768592791208,
   "labels": [
     {
       "name": "feature",
-      "value": "Data Validation"
+      "value": "Functional TC"
     },
     {
       "name": "severity",
@@ -34,7 +34,7 @@
     },
     {
       "name": "suite",
-      "value": "Data Validation"
+      "value": "Functional TC"
     }
   ],
   "links": [],
@@ -45,8 +45,8 @@
     {
       "name": "Upload CSV with valid and invalid emails | 2. Monitor validation results",
       "status": "passed",
-      "start": 1768271255233,
-      "stop": 1768271255333
+      "start": 1768592790208,
+      "stop": 1768592790308
     }
   ]
 }

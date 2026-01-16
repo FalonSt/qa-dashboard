@@ -2,19 +2,19 @@
   "uuid": "8b617010-4b9b-5374-8433-72a71f4c99ac",
   "historyId": "5a2d214e5b22e66c95d6efc31d50dd1d",
   "name": "API - GET /api/uploads/:id/errors",
-  "fullName": "Integration.TC-060-geterrors",
+  "fullName": "Functional TC.TC-060-geterrors",
   "status": "unknown",
   "statusDetails": {
     "known": false,
     "muted": false,
     "flaky": false
   },
-  "start": 1768271255233,
-  "stop": 1768271256233,
+  "start": 1768592790208,
+  "stop": 1768592791208,
   "labels": [
     {
       "name": "feature",
-      "value": "Integration"
+      "value": "Functional TC"
     },
     {
       "name": "severity",
@@ -34,7 +34,7 @@
     },
     {
       "name": "suite",
-      "value": "Integration"
+      "value": "Functional TC"
     }
   ],
   "links": [],
@@ -45,8 +45,8 @@
     {
       "name": "GET /api/uploads/:id/errors | 2. Verify response format",
       "status": "passed",
-      "start": 1768271255233,
-      "stop": 1768271255333
+      "start": 1768592790208,
+      "stop": 1768592790308
     }
   ]
 }

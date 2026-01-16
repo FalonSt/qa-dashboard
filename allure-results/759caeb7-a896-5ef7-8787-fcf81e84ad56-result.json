@@ -2,19 +2,19 @@
   "uuid": "759caeb7-a896-5ef7-8787-fcf81e84ad56",
   "historyId": "97abc1ee38e0554750118c9975657a22",
   "name": "Manual Field Mapping Interface",
-  "fullName": "Field Mapping.TC-011",
+  "fullName": "Functional TC.TC-011",
   "status": "passed",
   "statusDetails": {
     "known": false,
     "muted": false,
     "flaky": false
   },
-  "start": 1768271255233,
-  "stop": 1768271256233,
+  "start": 1768592790208,
+  "stop": 1768592791208,
   "labels": [
     {
       "name": "feature",
-      "value": "Field Mapping"
+      "value": "Functional TC"
     },
     {
       "name": "severity",
@@ -34,7 +34,7 @@
     },
     {
       "name": "suite",
-      "value": "Field Mapping"
+      "value": "Functional TC"
     }
   ],
   "links": [],
@@ -45,8 +45,8 @@
     {
       "name": "View unmapped fields | 2. Select target field from dropdown | 3. Preview mapped data | 4. Change mapping | 5. Clear mapping",
       "status": "passed",
-      "start": 1768271255233,
-      "stop": 1768271255333
+      "start": 1768592790208,
+      "stop": 1768592790308
     }
   ]
 }

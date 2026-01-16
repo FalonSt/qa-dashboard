@@ -2,19 +2,19 @@
   "uuid": "8ce007db-b025-5f25-bb71-2cb08b9a58d7",
   "historyId": "1f31dd42c056a6def79d599933f9d162",
   "name": "Database - Validation Results Table",
-  "fullName": "Integration.TC-061-validation",
+  "fullName": "Functional TC.TC-061-validation",
   "status": "unknown",
   "statusDetails": {
     "known": false,
     "muted": false,
     "flaky": false
   },
-  "start": 1768271255233,
-  "stop": 1768271256233,
+  "start": 1768592790208,
+  "stop": 1768592791208,
   "labels": [
     {
       "name": "feature",
-      "value": "Integration"
+      "value": "Functional TC"
     },
     {
       "name": "severity",
@@ -34,7 +34,7 @@
     },
     {
       "name": "suite",
-      "value": "Integration"
+      "value": "Functional TC"
     }
   ],
   "links": [],
@@ -45,8 +45,8 @@
     {
       "name": "Validate data | 2. Query validation_results table | 3. Verify results",
       "status": "passed",
-      "start": 1768271255233,
-      "stop": 1768271255333
+      "start": 1768592790208,
+      "stop": 1768592790308
     }
   ]
 }

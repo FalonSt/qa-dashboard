@@ -2,19 +2,19 @@
   "uuid": "6bda5542-825d-5776-8197-2d434e699d34",
   "historyId": "9c2c5f5926ad38c21b274a5375aac3dc",
   "name": "Error Reporting and Download",
-  "fullName": "Dashboard.TC-031",
+  "fullName": "Functional TC.TC-031",
   "status": "failed",
   "statusDetails": {
     "known": false,
     "muted": false,
     "flaky": false
   },
-  "start": 1768271255233,
-  "stop": 1768271256233,
+  "start": 1768592790208,
+  "stop": 1768592791208,
   "labels": [
     {
       "name": "feature",
-      "value": "Dashboard"
+      "value": "Functional TC"
     },
     {
       "name": "severity",
@@ -34,7 +34,7 @@
     },
     {
       "name": "suite",
-      "value": "Dashboard"
+      "value": "Functional TC"
     }
   ],
   "links": [],
@@ -45,8 +45,8 @@
     {
       "name": "Upload CSV with errors | 2. View error details | 3. Click 'Download CSV' | 4. Open downloaded file",
       "status": "passed",
-      "start": 1768271255233,
-      "stop": 1768271255333
+      "start": 1768592790208,
+      "stop": 1768592790308
     }
   ]
 }

@@ -2,19 +2,19 @@
   "uuid": "00e93528-8111-5d57-91f1-86ba2a2daf39",
   "historyId": "c463537e726b412bcb49b15ca1a52d6e",
   "name": "Data Recovery - Partial Data Ingestion Failure",
-  "fullName": "Error Handling.TC-091-partial",
+  "fullName": "Functional TC.TC-091-partial",
   "status": "failed",
   "statusDetails": {
     "known": false,
     "muted": false,
     "flaky": false
   },
-  "start": 1768271255233,
-  "stop": 1768271256233,
+  "start": 1768592790208,
+  "stop": 1768592791208,
   "labels": [
     {
       "name": "feature",
-      "value": "Error Handling"
+      "value": "Functional TC"
     },
     {
       "name": "severity",
@@ -34,7 +34,7 @@
     },
     {
       "name": "suite",
-      "value": "Error Handling"
+      "value": "Functional TC"
     }
   ],
   "links": [],
@@ -45,8 +45,8 @@
     {
       "name": "Upload 100 row records | 2. Simulate failure at Data Ingestion stage | 3. Verify data state | 4. Attempt resume",
       "status": "passed",
-      "start": 1768271255233,
-      "stop": 1768271255333
+      "start": 1768592790208,
+      "stop": 1768592790308
     }
   ]
 }

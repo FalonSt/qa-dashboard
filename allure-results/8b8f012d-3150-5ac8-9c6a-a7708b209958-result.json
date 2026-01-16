@@ -2,19 +2,19 @@
   "uuid": "8b8f012d-3150-5ac8-9c6a-a7708b209958",
   "historyId": "7ae10a0cd56d414a093ea4278bec2ad1",
   "name": "Database - Staging Table",
-  "fullName": "Integration.TC-061-staging",
+  "fullName": "Functional TC.TC-061-staging",
   "status": "unknown",
   "statusDetails": {
     "known": false,
     "muted": false,
     "flaky": false
   },
-  "start": 1768271255233,
-  "stop": 1768271256233,
+  "start": 1768592790208,
+  "stop": 1768592791208,
   "labels": [
     {
       "name": "feature",
-      "value": "Integration"
+      "value": "Functional TC"
     },
     {
       "name": "severity",
@@ -34,7 +34,7 @@
     },
     {
       "name": "suite",
-      "value": "Integration"
+      "value": "Functional TC"
     }
   ],
   "links": [],
@@ -45,8 +45,8 @@
     {
       "name": "Upload CSV | 2. Query staging table | 3. Verify data present",
       "status": "passed",
-      "start": 1768271255233,
-      "stop": 1768271255333
+      "start": 1768592790208,
+      "stop": 1768592790308
     }
   ]
 }

@@ -2,19 +2,19 @@
   "uuid": "35b6b066-a081-561d-9060-82f8b0d5af85",
   "historyId": "8b488562a6b53f945767f7a1f21518bc",
   "name": "Custom Field Support",
-  "fullName": "Field Mapping.TC-013",
+  "fullName": "Functional TC.TC-013",
   "status": "unknown",
   "statusDetails": {
     "known": false,
     "muted": false,
     "flaky": false
   },
-  "start": 1768271255233,
-  "stop": 1768271256233,
+  "start": 1768592790208,
+  "stop": 1768592791208,
   "labels": [
     {
       "name": "feature",
-      "value": "Field Mapping"
+      "value": "Functional TC"
     },
     {
       "name": "severity",
@@ -34,7 +34,7 @@
     },
     {
       "name": "suite",
-      "value": "Field Mapping"
+      "value": "Functional TC"
     }
   ],
   "links": [],
@@ -45,8 +45,8 @@
     {
       "name": "Upload CSV with custom column | 2. Select 'Create Custom Field' | 3. Name custom field | 4. Map column to custom field | 5. Verify in database",
       "status": "passed",
-      "start": 1768271255233,
-      "stop": 1768271255333
+      "start": 1768592790208,
+      "stop": 1768592790308
     }
   ]
 }

@@ -2,19 +2,19 @@
   "uuid": "07c515f8-93d0-54ff-8e3f-06d2d6b1dc02",
   "historyId": "63b48f2380bf7a2c6d893cd3fef4835e",
   "name": "Error Recovery - Invalid CSV Mid-File",
-  "fullName": "Error Handling.TC-090-invalid",
+  "fullName": "Functional TC.TC-090-invalid",
   "status": "unknown",
   "statusDetails": {
     "known": false,
     "muted": false,
     "flaky": false
   },
-  "start": 1768271255233,
-  "stop": 1768271256233,
+  "start": 1768592790208,
+  "stop": 1768592791208,
   "labels": [
     {
       "name": "feature",
-      "value": "Error Handling"
+      "value": "Functional TC"
     },
     {
       "name": "severity",
@@ -34,7 +34,7 @@
     },
     {
       "name": "suite",
-      "value": "Error Handling"
+      "value": "Functional TC"
     }
   ],
   "links": [],
@@ -45,8 +45,8 @@
     {
       "name": "Upload CSV that becomes invalid at row 5000 | 2. Observe error handling",
       "status": "passed",
-      "start": 1768271255233,
-      "stop": 1768271255333
+      "start": 1768592790208,
+      "stop": 1768592790308
     }
   ]
 }

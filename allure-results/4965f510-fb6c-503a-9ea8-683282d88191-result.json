@@ -2,19 +2,19 @@
   "uuid": "4965f510-fb6c-503a-9ea8-683282d88191",
   "historyId": "0f0b5fff88747072c6f579b91da4f3c2",
   "name": "AWS S3 - Retention Policy",
-  "fullName": "Integration.TC-062-s3retention",
+  "fullName": "Functional TC.TC-062-s3retention",
   "status": "unknown",
   "statusDetails": {
     "known": false,
     "muted": false,
     "flaky": false
   },
-  "start": 1768271255233,
-  "stop": 1768271256233,
+  "start": 1768592790208,
+  "stop": 1768592791208,
   "labels": [
     {
       "name": "feature",
-      "value": "Integration"
+      "value": "Functional TC"
     },
     {
       "name": "severity",
@@ -34,7 +34,7 @@
     },
     {
       "name": "suite",
-      "value": "Integration"
+      "value": "Functional TC"
     }
   ],
   "links": [],
@@ -45,8 +45,8 @@
     {
       "name": "Complete processing | 2. Verify retention policy | 3. Check file lifecycle",
       "status": "passed",
-      "start": 1768271255233,
-      "stop": 1768271255333
+      "start": 1768592790208,
+      "stop": 1768592790308
     }
   ]
 }

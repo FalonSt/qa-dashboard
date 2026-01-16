@@ -2,19 +2,19 @@
   "uuid": "8fc41e13-8fae-5710-bfa6-702b75ecba8a",
   "historyId": "602ff470158e73e6748e3efc436b1853",
   "name": "API - POST /api/mappings",
-  "fullName": "Integration.TC-060-savemappings",
+  "fullName": "Functional TC.TC-060-savemappings",
   "status": "unknown",
   "statusDetails": {
     "known": false,
     "muted": false,
     "flaky": false
   },
-  "start": 1768271255233,
-  "stop": 1768271256233,
+  "start": 1768592790208,
+  "stop": 1768592791208,
   "labels": [
     {
       "name": "feature",
-      "value": "Integration"
+      "value": "Functional TC"
     },
     {
       "name": "severity",
@@ -34,7 +34,7 @@
     },
     {
       "name": "suite",
-      "value": "Integration"
+      "value": "Functional TC"
     }
   ],
   "links": [],
@@ -45,8 +45,8 @@
     {
       "name": "POST mapping configuration | 2. Verify response",
       "status": "passed",
-      "start": 1768271255233,
-      "stop": 1768271255333
+      "start": 1768592790208,
+      "stop": 1768592790308
     }
   ]
 }

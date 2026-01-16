@@ -2,19 +2,19 @@
   "uuid": "90ee3f65-9755-5399-aab0-61570c44fd37",
   "historyId": "265bcd21ea949c41299ef27c9ffbc19a",
   "name": "Error Recovery - Database Connection Lost",
-  "fullName": "Error Handling.TC-090-dblost",
+  "fullName": "Functional TC.TC-090-dblost",
   "status": "unknown",
   "statusDetails": {
     "known": false,
     "muted": false,
     "flaky": false
   },
-  "start": 1768271255233,
-  "stop": 1768271256233,
+  "start": 1768592790208,
+  "stop": 1768592791208,
   "labels": [
     {
       "name": "feature",
-      "value": "Error Handling"
+      "value": "Functional TC"
     },
     {
       "name": "severity",
@@ -34,7 +34,7 @@
     },
     {
       "name": "suite",
-      "value": "Error Handling"
+      "value": "Functional TC"
     }
   ],
   "links": [],
@@ -45,8 +45,8 @@
     {
       "name": "Start upload | 2. Simulate DB connection loss mid-processing | 3. Observe error handling | 4. Verify data state",
       "status": "passed",
-      "start": 1768271255233,
-      "stop": 1768271255333
+      "start": 1768592790208,
+      "stop": 1768592790308
     }
   ]
 }

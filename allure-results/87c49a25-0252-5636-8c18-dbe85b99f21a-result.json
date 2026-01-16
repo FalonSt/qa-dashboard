@@ -2,19 +2,19 @@
   "uuid": "87c49a25-0252-5636-8c18-dbe85b99f21a",
   "historyId": "0673db25f163f0aefb922b7f630c84d2",
   "name": "Duplicate Detection",
-  "fullName": "Data Validation.TC-022",
+  "fullName": "Functional TC.TC-022",
   "status": "passed",
   "statusDetails": {
     "known": false,
     "muted": false,
     "flaky": false
   },
-  "start": 1768271255233,
-  "stop": 1768271256233,
+  "start": 1768592790208,
+  "stop": 1768592791208,
   "labels": [
     {
       "name": "feature",
-      "value": "Data Validation"
+      "value": "Functional TC"
     },
     {
       "name": "severity",
@@ -34,7 +34,7 @@
     },
     {
       "name": "suite",
-      "value": "Data Validation"
+      "value": "Functional TC"
     }
   ],
   "links": [],
@@ -45,8 +45,8 @@
     {
       "name": "Upload CSV with known duplicates | 2. Verify detection results | 3. Calculate accuracy rate",
       "status": "passed",
-      "start": 1768271255233,
-      "stop": 1768271255333
+      "start": 1768592790208,
+      "stop": 1768592790308
     }
   ]
 }

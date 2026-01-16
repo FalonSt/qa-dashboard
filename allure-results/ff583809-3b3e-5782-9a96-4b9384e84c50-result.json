@@ -2,19 +2,19 @@
   "uuid": "ff583809-3b3e-5782-9a96-4b9384e84c50",
   "historyId": "901a9618cff70f1d1899e3656c0a8e31",
   "name": "API - POST /api/upload",
-  "fullName": "Integration.TC-060-upload",
+  "fullName": "Functional TC.TC-060-upload",
   "status": "passed",
   "statusDetails": {
     "known": false,
     "muted": false,
     "flaky": false
   },
-  "start": 1768271255233,
-  "stop": 1768271256233,
+  "start": 1768592790208,
+  "stop": 1768592791208,
   "labels": [
     {
       "name": "feature",
-      "value": "Integration"
+      "value": "Functional TC"
     },
     {
       "name": "severity",
@@ -34,7 +34,7 @@
     },
     {
       "name": "suite",
-      "value": "Integration"
+      "value": "Functional TC"
     }
   ],
   "links": [],
@@ -45,8 +45,8 @@
     {
       "name": "POST CSV file to /api/upload | 2. Verify response format",
       "status": "passed",
-      "start": 1768271255233,
-      "stop": 1768271255333
+      "start": 1768592790208,
+      "stop": 1768592790308
     }
   ]
 }

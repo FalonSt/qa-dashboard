@@ -2,19 +2,19 @@
   "uuid": "601f42a6-f61e-5cbd-83b5-73aec6ac10be",
   "historyId": "97bfb8d4b54c06538b7d0f92a0c88d3c",
   "name": "Error Recovery - Concurrent Duplicate Conflicts",
-  "fullName": "Error Handling.TC-090-concurrent",
+  "fullName": "Functional TC.TC-090-concurrent",
   "status": "unknown",
   "statusDetails": {
     "known": false,
     "muted": false,
     "flaky": false
   },
-  "start": 1768271255233,
-  "stop": 1768271256233,
+  "start": 1768592790208,
+  "stop": 1768592791208,
   "labels": [
     {
       "name": "feature",
-      "value": "Error Handling"
+      "value": "Functional TC"
     },
     {
       "name": "severity",
@@ -34,7 +34,7 @@
     },
     {
       "name": "suite",
-      "value": "Error Handling"
+      "value": "Functional TC"
     }
   ],
   "links": [],
@@ -45,8 +45,8 @@
     {
       "name": "Upload identical data from 2 users simultaneously | 2. Observe conflict resolution",
       "status": "passed",
-      "start": 1768271255233,
-      "stop": 1768271255333
+      "start": 1768592790208,
+      "stop": 1768592790308
     }
   ]
 }

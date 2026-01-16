@@ -2,19 +2,19 @@
   "uuid": "0d76c0a8-d143-520e-8ec0-4067a1fd5bde",
   "historyId": "cca971d4c65d9ae74a7974c1ce8894c7",
   "name": "File Size Validation - 600,000 contacts (exceeds max)",
-  "fullName": "Upload.TC-002e",
+  "fullName": "Functional TC.TC-002e",
   "status": "unknown",
   "statusDetails": {
     "known": false,
     "muted": false,
     "flaky": false
   },
-  "start": 1768271255233,
-  "stop": 1768271256233,
+  "start": 1768592790208,
+  "stop": 1768592791208,
   "labels": [
     {
       "name": "feature",
-      "value": "Upload"
+      "value": "Functional TC"
     },
     {
       "name": "severity",
@@ -34,7 +34,7 @@
     },
     {
       "name": "suite",
-      "value": "Upload"
+      "value": "Functional TC"
     }
   ],
   "links": [],
@@ -45,8 +45,8 @@
     {
       "name": "Upload CSV with 600,000 contacts",
       "status": "passed",
-      "start": 1768271255233,
-      "stop": 1768271255333
+      "start": 1768592790208,
+      "stop": 1768592790308
     }
   ]
 }

@@ -2,19 +2,19 @@
   "uuid": "83db6857-8b83-5eaa-a008-0605b7c4e350",
   "historyId": "41210198097f28238c4576c7ed7282d2",
   "name": "Error Recovery - Memory Limit Exceeded",
-  "fullName": "Error Handling.TC-090-memory",
+  "fullName": "Functional TC.TC-090-memory",
   "status": "unknown",
   "statusDetails": {
     "known": false,
     "muted": false,
     "flaky": false
   },
-  "start": 1768271255233,
-  "stop": 1768271256233,
+  "start": 1768592790208,
+  "stop": 1768592791208,
   "labels": [
     {
       "name": "feature",
-      "value": "Error Handling"
+      "value": "Functional TC"
     },
     {
       "name": "severity",
@@ -34,7 +34,7 @@
     },
     {
       "name": "suite",
-      "value": "Error Handling"
+      "value": "Functional TC"
     }
   ],
   "links": [],
@@ -45,8 +45,8 @@
     {
       "name": "Upload file that exceeds memory limit | 2. Observe error handling",
       "status": "passed",
-      "start": 1768271255233,
-      "stop": 1768271255333
+      "start": 1768592790208,
+      "stop": 1768592790308
     }
   ]
 }

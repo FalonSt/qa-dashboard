@@ -2,19 +2,19 @@
   "uuid": "a13734ab-587d-54c1-b77d-e8f6ce768edb",
   "historyId": "3d76308fe2b04d78125c916321c25c73",
   "name": "Progress Tracking for Large Files",
-  "fullName": "Dashboard.TC-033",
+  "fullName": "Functional TC.TC-033",
   "status": "unknown",
   "statusDetails": {
     "known": false,
     "muted": false,
     "flaky": false
   },
-  "start": 1768271255233,
-  "stop": 1768271256233,
+  "start": 1768592790208,
+  "stop": 1768592791208,
   "labels": [
     {
       "name": "feature",
-      "value": "Dashboard"
+      "value": "Functional TC"
     },
     {
       "name": "severity",
@@ -34,7 +34,7 @@
     },
     {
       "name": "suite",
-      "value": "Dashboard"
+      "value": "Functional TC"
     }
   ],
   "links": [],
@@ -45,8 +45,8 @@
     {
       "name": "Upload 250K contact CSV | 2. Monitor progress | 3. Check percentage accuracy | 4. View time estimate | 5. Verify completion",
       "status": "passed",
-      "start": 1768271255233,
-      "stop": 1768271255333
+      "start": 1768592790208,
+      "stop": 1768592790308
     }
   ]
 }

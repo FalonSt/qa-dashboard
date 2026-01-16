@@ -2,19 +2,19 @@
   "uuid": "0a470776-21b1-5dc7-a0d2-df401994be60",
   "historyId": "2a2daed547a704373a742bd90765b724",
   "name": "Real-Time Validation Feedback",
-  "fullName": "Dashboard.TC-030",
+  "fullName": "Functional TC.TC-030",
   "status": "passed",
   "statusDetails": {
     "known": false,
     "muted": false,
     "flaky": false
   },
-  "start": 1768271255233,
-  "stop": 1768271256233,
+  "start": 1768592790208,
+  "stop": 1768592791208,
   "labels": [
     {
       "name": "feature",
-      "value": "Dashboard"
+      "value": "Functional TC"
     },
     {
       "name": "severity",
@@ -34,7 +34,7 @@
     },
     {
       "name": "suite",
-      "value": "Dashboard"
+      "value": "Functional TC"
     }
   ],
   "links": [],
@@ -45,8 +45,8 @@
     {
       "name": "Upload CSV with 1000 records | 2. Monitor progress bar | 3. Observe error detection | 4. Verify continuous updates | 5. Check final metrics",
       "status": "passed",
-      "start": 1768271255233,
-      "stop": 1768271255333
+      "start": 1768592790208,
+      "stop": 1768592790308
     }
   ]
 }

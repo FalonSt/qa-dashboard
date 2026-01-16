@@ -2,19 +2,19 @@
   "uuid": "da05dc28-d5a6-57fa-b2ac-626ed500053b",
   "historyId": "c074c9198de1563b17b147cac19551ab",
   "name": "Error Recovery - Processing Timeout",
-  "fullName": "Error Handling.TC-090-timeout",
+  "fullName": "Functional TC.TC-090-timeout",
   "status": "passed",
   "statusDetails": {
     "known": false,
     "muted": false,
     "flaky": false
   },
-  "start": 1768271255233,
-  "stop": 1768271256233,
+  "start": 1768592790208,
+  "stop": 1768592791208,
   "labels": [
     {
       "name": "feature",
-      "value": "Error Handling"
+      "value": "Functional TC"
     },
     {
       "name": "severity",
@@ -34,7 +34,7 @@
     },
     {
       "name": "suite",
-      "value": "Error Handling"
+      "value": "Functional TC"
     }
   ],
   "links": [],
@@ -45,8 +45,8 @@
     {
       "name": "Upload very large file | 2. Wait for timeout | 3. Observe handling",
       "status": "passed",
-      "start": 1768271255233,
-      "stop": 1768271255333
+      "start": 1768592790208,
+      "stop": 1768592790308
     }
   ]
 }

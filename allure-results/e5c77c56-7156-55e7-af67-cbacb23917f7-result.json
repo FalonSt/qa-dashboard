@@ -2,19 +2,19 @@
   "uuid": "e5c77c56-7156-55e7-af67-cbacb23917f7",
   "historyId": "678d62a94184576088a4770c6174b998",
   "name": "API - GET /api/mappings",
-  "fullName": "Integration.TC-060-getmappings",
+  "fullName": "Functional TC.TC-060-getmappings",
   "status": "unknown",
   "statusDetails": {
     "known": false,
     "muted": false,
     "flaky": false
   },
-  "start": 1768271255233,
-  "stop": 1768271256233,
+  "start": 1768592790208,
+  "stop": 1768592791208,
   "labels": [
     {
       "name": "feature",
-      "value": "Integration"
+      "value": "Functional TC"
     },
     {
       "name": "severity",
@@ -34,7 +34,7 @@
     },
     {
       "name": "suite",
-      "value": "Integration"
+      "value": "Functional TC"
     }
   ],
   "links": [],
@@ -45,8 +45,8 @@
     {
       "name": "GET /api/mappings | 2. Verify response format",
       "status": "passed",
-      "start": 1768271255233,
-      "stop": 1768271255333
+      "start": 1768592790208,
+      "stop": 1768592790308
     }
   ]
 }

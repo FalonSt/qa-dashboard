@@ -2,19 +2,19 @@
   "uuid": "eea7d889-23cb-5ab5-a07c-d083932ef64b",
   "historyId": "7bad4824d7ef69527dc355213c64d8bf",
   "name": "Malformed CSV - Mixed delimiters",
-  "fullName": "Upload.TC-004-delimiters",
+  "fullName": "Functional TC.TC-004-delimiters",
   "status": "failed",
   "statusDetails": {
     "known": false,
     "muted": false,
     "flaky": false
   },
-  "start": 1768271255233,
-  "stop": 1768271256233,
+  "start": 1768592790208,
+  "stop": 1768592791208,
   "labels": [
     {
       "name": "feature",
-      "value": "Upload"
+      "value": "Functional TC"
     },
     {
       "name": "severity",
@@ -34,7 +34,7 @@
     },
     {
       "name": "suite",
-      "value": "Upload"
+      "value": "Functional TC"
     }
   ],
   "links": [],
@@ -45,8 +45,8 @@
     {
       "name": "Upload CSV with mixed delimiters",
       "status": "passed",
-      "start": 1768271255233,
-      "stop": 1768271255333
+      "start": 1768592790208,
+      "stop": 1768592790308
     }
   ]
 }
