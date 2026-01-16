@@ -70,7 +70,7 @@ def send_teams_notification(webhook_url, metrics):
     total_passed = sum(m['passed'] for m in metrics.values())
     total_failed = sum(m['failed'] for m in metrics.values())
     total_pending = sum(m['pending'] for m in metrics.values())
-    overall_pass_rate = (total_passed / total_cases * 100) if total_cases > 0 else 0
+    overall_pass_rate = round((total_passed / total_cases * 100), 2) if total_cases > 0 else 0
     
     # Determinar color según pass rate general
     if overall_pass_rate >= 80:
@@ -112,12 +112,17 @@ def send_teams_notification(webhook_url, metrics):
                     }
                 ] + category_facts,
                 "markdown": True
+            },
+            {
+                "activityTitle": "🔗 Acceso al Reporte",
+                "activitySubtitle": "Haz clic para ver el reporte completo en Allure",
+                "text": "[Ver Dashboard Completo](https://falonst.github.io/qa-dashboard/)"
             }
         ],
         "potentialAction": [
             {
                 "@type": "OpenUri",
-                "name": "Ver Reporte Completo en Allure",
+                "name": "📊 Abrir Reporte Allure",
                 "targets": [
                     {
                         "os": "default",
