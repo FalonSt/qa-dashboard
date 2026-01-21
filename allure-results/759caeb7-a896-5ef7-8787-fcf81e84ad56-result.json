@@ -9,8 +9,8 @@
     "muted": false,
     "flaky": false
   },
-  "start": 1768592790208,
-  "stop": 1768592791208,
+  "start": 1769019745492,
+  "stop": 1769019746492,
   "labels": [
     {
       "name": "feature",
@@ -45,8 +45,8 @@
     {
       "name": "View unmapped fields | 2. Select target field from dropdown | 3. Preview mapped data | 4. Change mapping | 5. Clear mapping",
       "status": "passed",
-      "start": 1768592790208,
-      "stop": 1768592790308
+      "start": 1769019745492,
+      "stop": 1769019745592
     }
   ]
 }
