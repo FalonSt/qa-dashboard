@@ -9,8 +9,8 @@
     "muted": false,
     "flaky": false
   },
-  "start": 1769019745492,
-  "stop": 1769019746492,
+  "start": 1769020336272,
+  "stop": 1769020337272,
   "labels": [
     {
       "name": "feature",
@@ -45,8 +45,8 @@
     {
       "name": "Upload Monday.com export CSV | 2. Verify auto-mapping of Monday field names",
       "status": "passed",
-      "start": 1769019745492,
-      "stop": 1769019745592
+      "start": 1769020336272,
+      "stop": 1769020336372
     }
   ]
 }
