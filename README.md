@@ -60,6 +60,47 @@ npm install -g allure-commandline
 ### 4. Instalar Java (si no lo tienes)
 Descarga desde: https://adoptium.net/temurin/releases/?version=17
 
+## ⚙️ Configuración Inicial en GitHub
+
+Después de clonar el repositorio, realiza estos pasos **una sola vez**:
+
+### 1. Habilitar GitHub Pages
+1. Ve a tu repositorio en GitHub
+2. Settings → Pages
+3. Selecciona "Deploy from a branch"
+4. Branch: `gh-pages` / Folder: `/ (root)`
+5. Click en "Save"
+
+> **Nota**: La rama `gh-pages` se crea automáticamente en el primer push después de que el workflow se ejecute.
+
+### 2. Verificar que GitHub Actions esté habilitado
+1. Ve a Settings → Actions → General
+2. Asegúrate que "Allow all actions and reusable workflows" esté seleccionado
+3. Los workflows en `.github/workflows/` deben estar activos
+
+### 3. Configurar webhook de Teams (opcional)
+Si quieres recibir alertas semanales en Teams:
+
+1. Ve a Settings → Secrets and variables → Actions
+2. Click en "New repository secret"
+3. Name: `TEAMS_WEBHOOK_URL`
+4. Value: Tu URL de webhook de Teams
+5. Click en "Add secret"
+
+> Para obtener la URL del webhook: Teams → Configurar conector → Webhook entrante
+
+### 4. Primer push para generar el reporte
+```bash
+git add .
+git commit -m "Initial setup"
+git push origin main
+```
+
+El workflow se ejecutará automáticamente. En 2-3 minutos tu reporte estará disponible en:
+```
+https://<tu-usuario>.github.io/qa-dashboard/
+```
+
 ## 📝 Uso
 
 ### Paso 1: Preparar datos de prueba
